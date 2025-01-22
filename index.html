@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="D:\\wang_ye_kai_fa\\前端\\1\\css\\styles.css">
+    <title>Language Switcher</title>
+    <!-- 引入本地化的MathJax -->
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="D:\\wang_ye_kai_fa\\前端\\1\\mathjax - 3.xx.x\\es5\\tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <div id="languageSwitcher">
+        <select id="languageSelect">
+            <option value="zh">中文</option>
+            <option value="en">English</option>
+        </select>
+    </div>
+    <div id="content">
+        <h1>欢迎</h1>
+        <p>这是一个简单的语言切换示例，这里展示一个数学公式：</p>
+        <p> \( E = mc^2 \) </p>
+    </div>
+    <script src="D:\\wang_ye_kai_fa\\前端\\1\\js\\script.js"></script>
+</body>
+
+</html>
